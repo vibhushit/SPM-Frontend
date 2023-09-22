@@ -1,0 +1,21 @@
+{
+    "properties": [
+        {
+            "id": 101,
+            "name": "Property 1",
+            "dateOfCreation": "2023-09-23",
+            "location": "Downtown",
+            "type": "Apartment",
+            "rent": "$1,200/month"
+        },
+        {
+            "id": 102,
+            "name": "Property 2",
+            "dateOfCreation": "2023-09-23",
+            "location": "Suburb",
+            "type": "House",
+            "rent": "$1,800/month"
+        }
+        
+    ]
+}

@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: #fff;
+    padding: 15px;
+}
+
+/* In your style.css file */
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with space in between */
+    align-items: center; /* Align items vertically to the center */
+    padding: 10px 20px; /* Add padding as needed */
+}
+
+.logo {
+    display: flex; /* To align logo content horizontally */
+    align-items: center; /* Align logo content vertically to the center */
+}
+
+.logo img {
+    max-width: 50px; /* Adjust the max-width as needed */
+    height: auto;
+    margin-right: 10px; /* Add margin to separate the image from text */
+}
+
+.logo h1 {
+    color: white; /* Example text color for the logo text */
+    font-size: 24px; /* Example font size for the logo text */
+    margin: 0; /* Remove any default margin */
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1c40f; /* Yellow color on hover */
+}
+
+/* Main content styles */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Profile section styles */
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+/* Properties section styles */
+.properties h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.property {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.property h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Tenants section styles */
+.tenants h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.tenant {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.tenant h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive styles (adjust as needed) */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+}
